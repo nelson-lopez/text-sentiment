@@ -69,6 +69,5 @@ Highcharts for chart generation https://www.highcharts.com/
 ## Issues and Resolutions
 
 
-#### SAMPLE.....
 **ERROR**:                         
 **RESOLUTION**: 
