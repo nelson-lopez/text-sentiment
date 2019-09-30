@@ -8,21 +8,13 @@ This app will display word analysis using Indico's Sentiment automation for text
 
 ### Mobile Wireframes:
 
-![mobile1](
-        article-sentiment/imgs/phone1.png
-      )
-![mobile2](
-        article-sentiment/imgs/phone2.png
-      )
+![mobile1](article-sentiment/imgs/phone1.png)
+![mobile2](article-sentiment/imgs/phone2.png)
 
 ### Desktop Wireframes
 
-![desktop1](
-        article-sentiment/imgs/regular-screen1.png
-      )
-![desktop2](
-        article-sentiment/imgs/regular-screen2.png
-      )
+![desktop1](article-sentiment/imgs/regular-screen1.png)
+![desktop2](article-sentiment/imgs/regular-screen2.png)
 
 ## API Snippet
 
@@ -60,9 +52,7 @@ https://indico.io/blog/docs/indico-api/quickstart/
 
 ## Priority Matrix
 
-![matrix](
-        article-sentiment/imgs/priority-matrix.png
-      )
+![matrix](article-sentiment/imgs/priority-matrix.png)
 
 ### Priorities
 
