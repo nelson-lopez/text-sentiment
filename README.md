@@ -119,6 +119,15 @@ https://developer.nytimes.com/
 - E: Render data through Highcharts
 - F: Add styling
 
+
+| Day      | Deliverable                                      | Status     |
+| -------- | ------------------------------------------------ | ---------- |
+| Sep 10th | Scaffolding Project/Routes/Make a working Search Bar | Unfinished   |
+| Sep 11th | Apply search input to Api/Render Data through text | Unfinished   |
+| Sep 12th | Render data using HighCharts           | Unfinished   |
+| Sep 13th |Styling with breakpoints           | Unfinished   |
+| Sep 14th | Present                      | Unfinished   |
+
 | Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------------------- | :------: | :------------: | :------------: | :---------: |
 | Scaffolding Project/Routes   |    H     |      3hrs      |                |             |
