@@ -119,7 +119,7 @@ https://developer.nytimes.com/
 
 - A: Working search bar
 - B: Successfully grab JSON and store into reusable data structures
-- C: Apply searches to INDICO API call
+- C: Apply searches to INDICO API  & NYT API
 - D: Render data using text
 - E: Render data through Highcharts
 - F: Add styling
