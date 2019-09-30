@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This app will display word analysis using Indico's Sentiment automation for text processing. The user will enter in a word or a sentence and receive text analysis as well as data visualization using Highchart.js.
+This app will display word analysis using Indico's Sentiment automation for text processing. The user will enter in a word or a sentence and receive articles based on the New York times API as well as data visualization.
 
 ## Wireframes
 
@@ -82,13 +82,12 @@ https://developer.nytimes.com/
 
 - Find and use external api
 - Render data on page
-- Mount data to highcharts for charting
 - Add Responsiveness for Phone
 - Use New York times API to analyze articles
 
 #### PostMVP
-
-- Add animations while rendering
+- Mount data to Highcharts for charting
+- Add animations while rendering using React.Spring
 - Implement color hash to generate background color
 
 ## React Component Hierarchy
