@@ -119,19 +119,18 @@ https://developer.nytimes.com/
 - E: Render data through Highcharts
 - F: Add styling
 
-
-| Day      | Deliverable                                      | Status     |
-| -------- | ------------------------------------------------ | ---------- |
-| Sep 30th | Scaffolding Project/Routes/Make a working Search Bar | Unfinished   |
-| Oct 1st | Apply search input to Api/Render Data through text | Unfinished   |
-| Oct 2nd | Render data using HighCharts           | Unfinished   |
-| Oct 4th |Styling with breakpoints           | Unfinished   |
-| Oct 5th | Present                      | Unfinished   |
+| Day      | Deliverable                                          | Status     |
+| -------- | ---------------------------------------------------- | ---------- |
+| Sep 30th | Scaffolding Project/Routes/Make a working Search Bar | Finished   |
+| Oct 1st  | Apply search input to Api/Render Data through text   | Unfinished |
+| Oct 2nd  | Render data using HighCharts                         | Unfinished |
+| Oct 4th  | Styling with breakpoints                             | Unfinished |
+| Oct 5th  | Present                                              | Unfinished |
 
 | Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------------------- | :------: | :------------: | :------------: | :---------: |
-| Scaffolding Project/Routes   |    H     |      3hrs      |                |             |
-| Make a working search bar    |    H     |      3hrs      |                |             |
+| Scaffolding Project/Routes   |    H     |      3hrs      |      1hr       |     1hr     |
+| Make a working search bar    |    H     |      3hrs      |      2hrs      |    2hrs     |
 | Apply search to API call     |    H     |      4hrs      |                |             |
 | Render Data through Text     |    H     |      4hrs      |                |             |
 | Render Data using HighCharts |    H     |      8hrs      |                |             |

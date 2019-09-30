@@ -1,10 +1,11 @@
 import React from 'react';
 import Article from './Article';
 
-const Body = () => {
+const Body = ({ data }) => {
+  console.log(data);
   return (
     <div>
-      <Article />
+      <Article data={data} />
     </div>
   );
 };

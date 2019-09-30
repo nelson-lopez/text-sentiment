@@ -1,10 +1,10 @@
 import React from 'react';
 import SearchBar from './SearchBar';
 
-const Header = ({ handleOnInput }) => {
+const Header = ({ handleOnSubmit }) => {
   return (
     <div>
-      <SearchBar handleOnInput={handleOnInput} />
+      <SearchBar handleOnSubmit={handleOnSubmit} />
     </div>
   );
 };
