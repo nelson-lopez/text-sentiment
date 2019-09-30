@@ -11,49 +11,52 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 ## API Snippet
 
 ```
-Paste a snippet from your API here that shows the shape of the data
+{
+  "results": {
+    "anger": 0.03221449628472328,
+    "fear": 0.09735360741615295,
+    "joy": 0.47539448738098145,
+    "sadness": 0.24594545364379883,
+    "surprise": 0.14909198880195618
+  }
+}
 ```
 
 ### MVP/PostMVP - 5min
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+ 
 
 #### MVP EXAMPLE
 - Find and use external api 
 - Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Mount data to highcharts for charting
+- Add Responsiveness for Phone
 
 #### PostMVP EXAMPLE
 
-- Add user auth
+- Use New York times API to analyze articles
+- Implement color hash to generate background color
 
 ## React Component Hierarchy
 
-Define the the React components and the architectural design of your app.
+/App
+//Header => SearchBar
+//Body => Graphs | AnalysisText
+
 
 ## Priority Matrix
 
 Add in a picture of your Priority Matrix
 
-## Functional Components
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into stateless/stateful components. 
-
-| Component | Description | 
-| --- | :---: |  
-| Header | This will render the header include the nav | 
-| Footer | This will render the footer include the nav | 
-
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Scaffolding Project | H | .5hrs|  |  |
+| Make a working search bar | H | 3hrs|  |  |
+| Apply search to API call | H | 4hrs|  |  |
+| Render Data through Text | H | 2hrs|  |  |
+| Render Data using HighCharts | H | 7hrs|  |  |
+| Add styling to page | H | 7hrs|  |  |
+| Total | H | 23hrs| 5hrs | 5hrs |
 
 
 ## Additional Libraries
@@ -61,13 +64,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
