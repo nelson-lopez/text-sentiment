@@ -126,9 +126,9 @@ https://developer.nytimes.com/
 | Make a working search bar    |    H     |      3hrs      |                |             |
 | Apply search to API call     |    H     |      4hrs      |                |             |
 | Render Data through Text     |    H     |      4hrs      |                |             |
-| Render Data using HighCharts |    H     |      7hrs      |                |             |
-| Add styling to page          |    H     |      7hrs      |                |             |
-| Total                        |    H     |     23hrs      |         |        |
+| Render Data using HighCharts |    H     |      8hrs      |                |             |
+| Add styling to page          |    H     |      8hrs      |                |             |
+| Total                        |    H     |     30hrs      |         |        |
 
 ## Additional Libraries
 
