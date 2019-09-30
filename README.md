@@ -39,40 +39,50 @@ https://developer.nytimes.com/
   "response": {
     "docs": [
       {
+        "web_url": "https://www.nytimes.com/2019/07/29/us/politics/on-politics-democratic-debates-preview.html",
         "snippet": "Democrats are gearing up for what’s expected to be a far more contentious face-off than the first debates."
       },
       {
+        "web_url": "https://www.nytimes.com/2019/09/04/us/politics/lewandoski-trump-senate.html",
         "snippet": "Corey Lewandowski, President Trump’s former campaign manager, is echoing his onetime boss as he weighs a run for the Senate in New Hampshire. Some Republicans are shuddering."
       },
       {
+        "web_url": "https://www.nytimes.com/2019/08/06/us/politics/shootings-el-paso-dayton-trump.html",
         "snippet": "President Trump addressed the country after mass shootings in El Paso and Dayton, Ohio, but he stopped short of endorsing broad gun control measures."
       },
       {
+        "web_url": "https://www.nytimes.com/2019/08/23/us/politics/joe-biden-candidate.html",
         "snippet": "There are signs of a disconnect between support for Joe Biden in polls and excitement for his campaign on the ground in Iowa."
       },
       {
+        "web_url": "https://www.nytimes.com/2019/09/20/world/europe/ukraine-trump-zelensky.html",
         "snippet": "Pressure on the Ukrainian government by President Trump’s personal lawyer, Rudolph W. Giuliani, has been an open secret in Kiev, the Ukrainian capital, for months."
       },
       {
+        "web_url": "https://www.nytimes.com/2019/09/13/opinion/letters/alexandria-ocasio-cortez-aoc-abc.html",
         "snippet": "A Catholic nun is shocked that ABC would run an ad with “horrific images” during the Democratic debate."
       },
       {
+        "web_url": "https://www.nytimes.com/2019/08/17/travel/in-dc-trading-politics-for-a-paddle.html",
         "snippet": "The Potomac River offers a watery vantage point on the nation’s capital, with some rocky shoals."
       },
       {
+        "web_url": "https://www.nytimes.com/2019/07/04/opinion/sunday/politics-new-religion.html",
         "snippet": "It’s offensive to both politics and religion."
       },
       {
+        "web_url": "https://www.nytimes.com/2019/08/19/us/politics/trump-economic-conspiracy.html",
         "snippet": "As the economy shows ominous signs, the president has started to blame outside forces conspiring against him."
       },
       {
+        "web_url": "https://www.nytimes.com/2019/07/30/us/politics/democratic-debate.html",
         "snippet": "For half of the candidates, it may be their last chance to make an impression on the national stage."
       }
     ],
     "meta": {
-      "hits": 1049307,
+      "hits": 1049311,
       "offset": 10,
-      "time": 234
+      "time": 211
     }
   }
 }
