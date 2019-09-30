@@ -92,14 +92,14 @@ https://developer.nytimes.com/
 
 #### MVP
 
-- Find and use external api
+- Use New York times API to analyze articles
 - Render data on page
 - Add Responsiveness for Phone
-- Use New York times API to analyze articles
+- - Mount data to Highcharts for charting
 
 #### PostMVP
 
-- Mount data to Highcharts for charting
+
 - Add animations while rendering using React.Spring
 - Implement color hash to generate background color
 
@@ -122,13 +122,13 @@ https://developer.nytimes.com/
 
 | Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------------------- | :------: | :------------: | :------------: | :---------: |
-| Scaffolding Project/Routes   |    H     |      1hr       |                |             |
+| Scaffolding Project/Routes   |    H     |      3hrs       |                |             |
 | Make a working search bar    |    H     |      3hrs      |                |             |
 | Apply search to API call     |    H     |      4hrs      |                |             |
-| Render Data through Text     |    H     |      2hrs      |                |             |
+| Render Data through Text     |    H     |      4hrs      |                |             |
 | Render Data using HighCharts |    H     |      7hrs      |                |             |
 | Add styling to page          |    H     |      7hrs      |                |             |
-| Total                        |    H     |     23hrs      |      5hrs      |    5hrs     |
+| Total                        |    H     |     23hrs      |         |        |
 
 ## Additional Libraries
 
