@@ -122,11 +122,11 @@ https://developer.nytimes.com/
 
 | Day      | Deliverable                                      | Status     |
 | -------- | ------------------------------------------------ | ---------- |
-| Sep 10th | Scaffolding Project/Routes/Make a working Search Bar | Unfinished   |
-| Sep 11th | Apply search input to Api/Render Data through text | Unfinished   |
-| Sep 12th | Render data using HighCharts           | Unfinished   |
-| Sep 13th |Styling with breakpoints           | Unfinished   |
-| Sep 14th | Present                      | Unfinished   |
+| Sep 30th | Scaffolding Project/Routes/Make a working Search Bar | Unfinished   |
+| Oct 1st | Apply search input to Api/Render Data through text | Unfinished   |
+| Oct 2nd | Render data using HighCharts           | Unfinished   |
+| Oct 4th |Styling with breakpoints           | Unfinished   |
+| Oct 5th | Present                      | Unfinished   |
 
 | Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------------------- | :------: | :------------: | :------------: | :---------: |
