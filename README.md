@@ -98,11 +98,9 @@ https://developer.nytimes.com/
 //Header => SearchBar||
 
 
-//Body => 
+//Body => Articles => Graphs | AnalysisText => Text
 
-Graphs | 
 
-AnalysisText => Text
 
 ## Priority Matrix
 
