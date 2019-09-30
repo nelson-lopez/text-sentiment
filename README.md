@@ -38,10 +38,11 @@ https://indico.io/blog/docs/indico-api/quickstart/
 - Render data on page
 - Mount data to highcharts for charting
 - Add Responsiveness for Phone
+- Use New York times API to analyze articles
 
 #### PostMVP
 
-- Use New York times API to analyze articles
+- Add animations while rendering
 - Implement color hash to generate background color
 
 ## React Component Hierarchy
