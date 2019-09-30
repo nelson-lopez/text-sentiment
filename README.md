@@ -72,7 +72,7 @@ AnalysisText => Text
 
 | Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------------------- | :------: | :------------: | :------------: | :---------: |
-| Scaffolding Project/Routes          |    H     |     .5hrs      |                |             |
+| Scaffolding Project/Routes          |    H     |     1hr      |                |             |
 | Make a working search bar    |    H     |      3hrs      |                |             |
 | Apply search to API call     |    H     |      4hrs      |                |             |
 | Render Data through Text     |    H     |      2hrs      |                |             |
