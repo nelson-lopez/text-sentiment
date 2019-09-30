@@ -31,7 +31,9 @@ https://indico.io/blog/docs/indico-api/quickstart/
   }
 }
 ```
+
 https://developer.nytimes.com/
+
 ```
 {
   "status": "OK",
@@ -96,20 +98,14 @@ https://developer.nytimes.com/
 - Use New York times API to analyze articles
 
 #### PostMVP
+
 - Mount data to Highcharts for charting
 - Add animations while rendering using React.Spring
 - Implement color hash to generate background color
 
 ## React Component Hierarchy
 
-/App ||
-
-//Header => SearchBar||
-
-
-//Body => Articles => Graphs | AnalysisText => Text
-
-
+![matrix](imgs/component-heirarchy.png)
 
 ## Priority Matrix
 
@@ -119,14 +115,14 @@ https://developer.nytimes.com/
 
 - A: Working search bar
 - B: Successfully grab JSON and store into reusable data structures
-- C: Apply searches to INDICO API  & NYT API
+- C: Apply searches to INDICO API & NYT API
 - D: Render data using text
 - E: Render data through Highcharts
 - F: Add styling
 
 | Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------------------- | :------: | :------------: | :------------: | :---------: |
-| Scaffolding Project/Routes          |    H     |     1hr      |                |             |
+| Scaffolding Project/Routes   |    H     |      1hr       |                |             |
 | Make a working search bar    |    H     |      3hrs      |                |             |
 | Apply search to API call     |    H     |      4hrs      |                |             |
 | Render Data through Text     |    H     |      2hrs      |                |             |
