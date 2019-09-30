@@ -63,11 +63,12 @@ AnalysisText => Text
 
 ### Priorities
 
-- A: Grab API Key
+- A: Working search bar
 - B: Successfully grab JSON and store into reusable data structures
-- C: Finish scaffolding HTML/CSS and base Javascript components
-- D: Add responsiveness for mobile
-- F: Display data using interactive C3.js graphs
+- C: Apply searches to INDICO API call
+- D: Render data using text
+- E: Render data through Highcharts
+- F: Add styling
 
 | Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------------------- | :------: | :------------: | :------------: | :---------: |
