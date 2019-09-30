@@ -8,13 +8,13 @@ This app will display word analysis using Indico's Sentiment automation for text
 
 ### Mobile Wireframes:
 
-![mobile1](imgs/phone1.png)
-![mobile2](imgs/phone2.png)
+![mobile1](src/imgs/phone1.png)
+![mobile2](src/imgs/phone2.png)
 
 ### Desktop Wireframes
 
-![desktop1](imgs/regular-screen1.png)
-![desktop2](imgs/regular-screen2.png)
+![desktop1](src/imgs/regular-screen1.png)
+![desktop2](src/imgs/regular-screen2.png)
 
 ## API Snippet
 
@@ -99,17 +99,16 @@ https://developer.nytimes.com/
 
 #### PostMVP
 
-
 - Add animations while rendering using React.Spring
 - Implement color hash to generate background color
 
 ## React Component Hierarchy
 
-![matrix](imgs/component-heirarchy.png)
+![matrix](src/imgs/component-heirarchy.png)
 
 ## Priority Matrix
 
-![matrix](imgs/priority-matrix.png)
+![matrix](src/imgs/priority-matrix.png)
 
 ### Priorities
 
@@ -122,13 +121,13 @@ https://developer.nytimes.com/
 
 | Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------------------- | :------: | :------------: | :------------: | :---------: |
-| Scaffolding Project/Routes   |    H     |      3hrs       |                |             |
+| Scaffolding Project/Routes   |    H     |      3hrs      |                |             |
 | Make a working search bar    |    H     |      3hrs      |                |             |
 | Apply search to API call     |    H     |      4hrs      |                |             |
 | Render Data through Text     |    H     |      4hrs      |                |             |
 | Render Data using HighCharts |    H     |      8hrs      |                |             |
 | Add styling to page          |    H     |      8hrs      |                |             |
-| Total                        |    H     |     30hrs      |         |        |
+| Total                        |    H     |     30hrs      |                |             |
 
 ## Additional Libraries
 
