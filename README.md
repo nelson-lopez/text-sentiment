@@ -38,8 +38,8 @@ https://indico.io/blog/docs/indico-api/quickstart/
 
 ## React Component Hierarchy
 
-/App
-//Header => SearchBar
+/App ||
+//Header => SearchBar||
 //Body => Graphs | AnalysisText => Text
 
 
