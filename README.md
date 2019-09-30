@@ -9,6 +9,7 @@ This app will display word analysis using Indico's Sentiment automation for text
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe.
 
 ## API Snippet
+https://indico.io/blog/docs/indico-api/quickstart/
 
 ```
 {
@@ -22,16 +23,15 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 }
 ```
 
-### MVP/PostMVP - 5min
  
 
-#### MVP EXAMPLE
+#### MVP 
 - Find and use external api 
 - Render data on page 
 - Mount data to highcharts for charting
 - Add Responsiveness for Phone
 
-#### PostMVP EXAMPLE
+#### PostMVP 
 
 - Use New York times API to analyze articles
 - Implement color hash to generate background color
@@ -40,7 +40,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 /App
 //Header => SearchBar
-//Body => Graphs | AnalysisText
+//Body => Graphs | AnalysisText => Text
 
 
 ## Priority Matrix
@@ -60,14 +60,15 @@ Add in a picture of your Priority Matrix
 
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+Fomatic for utility styling https://fomantic-ui.com/
+Highcharts for chart generation https://www.highcharts.com/
 
 ## Code Snippet
 
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+
 
 #### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+**ERROR**:                         
+**RESOLUTION**: 
