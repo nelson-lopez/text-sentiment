@@ -3,6 +3,7 @@ import Graph from './Graph';
 import Text from './Text';
 
 const Article = ({ data }) => {
+  console.log(data);
   const [newsData, setNews] = useState(null);
 
   useEffect(() => {
@@ -15,13 +16,15 @@ const Article = ({ data }) => {
 
   console.log(newsData);
   if (newsData) {
-    return newsData.map(obj => {
+    return newsData.map((obj, index) => {
+      console.log(obj);
       return (
         <Text
-          key={obj._id}
-          title={obj.headline.main}
-          body={obj.snippet}
-          images={obj.multimedia[0]}
+          key={index}
+          title={obj.title}
+          body={obj.content}
+          link={obj.url}
+          image={obj.urlToImage}
         />
       );
     });

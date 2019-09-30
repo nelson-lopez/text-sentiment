@@ -2,17 +2,18 @@ import React, { useState } from 'react';
 import Nav from './Nav';
 import Body from './Body';
 import Header from './Header';
-import useNYT from './apis/useNYT';
+import useNews from './apis/useNews';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const App = () => {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState('politics');
 
   const handleOnSubmit = value => {
     setQuery(value);
   };
 
-  const data = useNYT(query);
+  const data = useNews(query);
+  console.log(data);
   return (
     <div>
       <Nav />
