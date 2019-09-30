@@ -31,6 +31,52 @@ https://indico.io/blog/docs/indico-api/quickstart/
   }
 }
 ```
+https://developer.nytimes.com/
+```
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 The New York Times Company. All Rights Reserved.",
+  "response": {
+    "docs": [
+      {
+        "snippet": "Democrats are gearing up for what’s expected to be a far more contentious face-off than the first debates."
+      },
+      {
+        "snippet": "Corey Lewandowski, President Trump’s former campaign manager, is echoing his onetime boss as he weighs a run for the Senate in New Hampshire. Some Republicans are shuddering."
+      },
+      {
+        "snippet": "President Trump addressed the country after mass shootings in El Paso and Dayton, Ohio, but he stopped short of endorsing broad gun control measures."
+      },
+      {
+        "snippet": "There are signs of a disconnect between support for Joe Biden in polls and excitement for his campaign on the ground in Iowa."
+      },
+      {
+        "snippet": "Pressure on the Ukrainian government by President Trump’s personal lawyer, Rudolph W. Giuliani, has been an open secret in Kiev, the Ukrainian capital, for months."
+      },
+      {
+        "snippet": "A Catholic nun is shocked that ABC would run an ad with “horrific images” during the Democratic debate."
+      },
+      {
+        "snippet": "The Potomac River offers a watery vantage point on the nation’s capital, with some rocky shoals."
+      },
+      {
+        "snippet": "It’s offensive to both politics and religion."
+      },
+      {
+        "snippet": "As the economy shows ominous signs, the president has started to blame outside forces conspiring against him."
+      },
+      {
+        "snippet": "For half of the candidates, it may be their last chance to make an impression on the national stage."
+      }
+    ],
+    "meta": {
+      "hits": 1049307,
+      "offset": 10,
+      "time": 234
+    }
+  }
+}
+```
 
 #### MVP
 
