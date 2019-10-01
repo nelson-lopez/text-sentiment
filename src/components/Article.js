@@ -3,7 +3,6 @@ import Graph from './Graph';
 import Text from './Text';
 
 const Article = ({ data }) => {
-  console.log(data);
   const [newsData, setNews] = useState(null);
 
   useEffect(() => {
@@ -14,17 +13,17 @@ const Article = ({ data }) => {
     return () => (isSubscribed = false);
   }, [data]);
 
-  console.log(newsData);
   if (newsData) {
     return newsData.map((obj, index) => {
-      console.log(obj);
       return (
         <Text
           key={index}
+          author={obj.author}
           title={obj.title}
           body={obj.content}
           link={obj.url}
           image={obj.urlToImage}
+          date={obj.publishedAt}
         />
       );
     });

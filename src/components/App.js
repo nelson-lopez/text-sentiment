@@ -3,14 +3,19 @@ import Nav from './Nav';
 import Body from './Body';
 import Header from './Header';
 import useNews from './apis/useNews';
+import useIndico from './apis/useIndico';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+const proxy = 'https://cors-anywhere.herokuapp.com/';
 const App = () => {
   const [query, setQuery] = useState('politics');
 
   const handleOnSubmit = value => {
     setQuery(value);
   };
+
+  const indicoData = useIndico(proxy);
+  console.log(indicoData);
 
   const data = useNews(query);
   console.log(data);

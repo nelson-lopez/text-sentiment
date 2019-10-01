@@ -95,7 +95,7 @@ https://developer.nytimes.com/
 - Use New York times API to analyze articles
 - Render data on page
 - Add Responsiveness for Phone
-- - Mount data to Highcharts for charting
+- Mount data to Highcharts
 
 #### PostMVP
 
