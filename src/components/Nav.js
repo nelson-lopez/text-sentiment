@@ -11,6 +11,9 @@ const Nav = () => {
         <li>
           <Link to="/">Header</Link>
         </li>
+        <li>
+          <Link to="/CustomSearch">Custom Search</Link>
+        </li>
       </ul>
     </div>
   );

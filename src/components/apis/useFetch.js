@@ -77,7 +77,8 @@ const useFetch = query => {
         if (isSubscribed) {
           setAnalysis(response.data.results);
         }
-      });
+      })
+      .catch(err => console.log(err));
   }, [summarization]);
 
   return [data, analysis];

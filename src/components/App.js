@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Nav from './Nav';
 import Body from './Body';
 import Header from './Header';
+import CustomSearch from './CustomSearch';
 import useFetch from './apis/useFetch';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -13,8 +14,6 @@ const App = () => {
   const handleOnSubmit = value => {
     setQuery(value);
   };
-
-  console.log(data);
 
   return (
     <div>
@@ -35,6 +34,7 @@ const App = () => {
           return <Header handleOnSubmit={handleOnSubmit} />;
         }}
       />
+      <Route exact path="/CustomSearch" component={CustomSearch} />
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 
-const Graph = ({ data }) => {
+const CustomGraph = ({ data }) => {
   const chartData = [];
   if (data) {
     for (let key in data) {
@@ -19,7 +19,7 @@ const Graph = ({ data }) => {
       type: 'pie'
     },
     title: {
-      text: 'Sentimental Values specific to this article'
+      text: 'Sentimental Value'
     },
     xAxis: {
       categories: []
@@ -36,4 +36,4 @@ const Graph = ({ data }) => {
   return <HighchartsReact highcharts={Highcharts} options={options} />;
 };
 
-export default Graph;
+export default CustomGraph;

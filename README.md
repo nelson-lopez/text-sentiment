@@ -123,7 +123,7 @@ https://developer.nytimes.com/
 | -------- | ---------------------------------------------------- | ---------- |
 | Sep 30th | Scaffolding Project/Routes/Make a working Search Bar | Finished   |
 | Oct 1st  | Apply search input to Api/Render Data through text   | Finished   |
-| Oct 2nd  | Render data using HighCharts                         | Unfinished |
+| Oct 2nd  | Render data using HighCharts                         | Finished   |
 | Oct 3th  | Styling with breakpoints                             | Unfinished |
 | Oct 4th  | Present                                              | Unfinished |
 
@@ -133,7 +133,7 @@ https://developer.nytimes.com/
 | Make a working search bar    |    H     |      3hrs      |      2hrs      |    2hrs     |
 | Apply search to API call     |    H     |      4hrs      |      1hrs      |    2hrs     |
 | Render Data through Text     |    H     |      4hrs      |      1hrs      |    1hrs     |
-| Render Data using HighCharts |    H     |      8hrs      |                |             |
+| Render Data using HighCharts |    H     |      8hrs      |      8hrs      |    8hrs     |
 | Add styling to page          |    H     |      8hrs      |                |             |
 | Total                        |    H     |     30hrs      |                |             |
 
