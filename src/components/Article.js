@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Graph from './Graph';
 import Text from './Text';
 
-const Article = ({ data }) => {
+const Article = ({ data, graphData }) => {
   const [newsData, setNews] = useState(null);
 
   useEffect(() => {
@@ -13,18 +13,21 @@ const Article = ({ data }) => {
     return () => (isSubscribed = false);
   }, [data]);
 
-  if (newsData) {
+  if (newsData && graphData) {
     return newsData.map((obj, index) => {
       return (
-        <Text
-          key={index}
-          author={obj.author}
-          title={obj.title}
-          body={obj.content}
-          link={obj.url}
-          image={obj.urlToImage}
-          date={obj.publishedAt}
-        />
+        <div>
+          <Text
+            key={index}
+            author={obj.author}
+            title={obj.title}
+            body={obj.content}
+            link={obj.url}
+            image={obj.urlToImage}
+            date={obj.publishedAt}
+          />
+          <Graph data={graphData[index]} />
+        </div>
       );
     });
   } else

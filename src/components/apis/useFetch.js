@@ -1,7 +1,7 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const useNews = query => {
+const useFetch = query => {
   const [data, setData] = useState(null);
   const [articleLinks, setArticles] = useState(null);
   const [summarization, setSummarization] = useState(null);
@@ -63,6 +63,7 @@ const useNews = query => {
     return () => (isSubscribed = false);
   }, [articleLinks]);
 
+  //Sentiment analysis API request
   useEffect(() => {
     const key = 'e64215eb626d15492bbd3ac04603242b';
     const proxy = 'https://cors-anywhere.herokuapp.com/';
@@ -79,24 +80,7 @@ const useNews = query => {
       });
   }, [summarization]);
 
-  return [data, summarization, articleLinks, analysis];
+  return [data, analysis];
 };
 
-// const useIndico = (proxy, article) => {
-//   const [data, setData] = useState(null);
-//   useEffect(() => {
-//     const key = 'e64215eb626d15492bbd3ac04603242b';
-//     const isSubscribed = true;
-//     axios
-//       .post(proxy + 'https://apiv2.indico.io/summarization', {
-//         api_key: key,
-//         data: article
-//       })
-//       .then(response => {
-//         if (isSubscribed) setData(response.data.results);
-//       });
-//   }, [proxy]);
-//   return data;
-// };
-
-export default useNews;
+export default useFetch;
