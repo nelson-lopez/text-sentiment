@@ -124,8 +124,8 @@ https://developer.nytimes.com/
 | Sep 30th | Scaffolding Project/Routes/Make a working Search Bar | Finished   |
 | Oct 1st  | Apply search input to Api/Render Data through text   | Finished   |
 | Oct 2nd  | Render data using HighCharts                         | Unfinished |
-| Oct 4th  | Styling with breakpoints                             | Unfinished |
-| Oct 5th  | Present                                              | Unfinished |
+| Oct 3th  | Styling with breakpoints                             | Unfinished |
+| Oct 4th  | Present                                              | Unfinished |
 
 | Component                    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ---------------------------- | :------: | :------------: | :------------: | :---------: |

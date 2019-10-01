@@ -6,9 +6,10 @@ import useNews from './apis/useNews';
 import useIndico from './apis/useIndico';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-const proxy = 'https://cors-anywhere.herokuapp.com/';
 const App = () => {
   const [query, setQuery] = useState('politics');
+
+  const proxy = 'https://cors-anywhere.herokuapp.com/';
 
   const handleOnSubmit = value => {
     setQuery(value);

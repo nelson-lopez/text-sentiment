@@ -10,7 +10,7 @@ const useIndico = proxy => {
       .post(proxy + 'https://apiv2.indico.io/summarization', {
         api_key: key,
         data:
-          'http://www.cnn.com/2016/12/16/health/psychology-of-gift-giving/index.html'
+          'https://www.nytimes.com/2019/09/21/us/politics/elizabeth-warren.html'
       })
       .then(response => {
         if (isSubscribed) setData(response.data);
