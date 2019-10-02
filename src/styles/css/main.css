@@ -1,4 +1,5 @@
 .nav {
+  background: #005b6d;
   height: 10vh;
   display: flex;
   flex-direction: row;
@@ -12,8 +13,8 @@
 }
 
 .ui.form {
-  max-height: 1em;
-  padding-top: 2em;
+  padding-top: 3.5em;
+  padding-bottom: 1em;
 }
 .ui.form form {
   display: flex;
@@ -23,16 +24,21 @@
   height: 70vh;
 }
 
-.ui.segment {
-  background: rgba(217, 217, 215, 0.5);
+.ui.segment.home {
   border-style: solid;
-  border-width: 3px;
-  border-color: rgba(16, 17, 17, 0.5);
+  border-width: 6px;
   color: #101111;
   font-size: 1.6em;
-  margin-top: 6em;
   min-height: 200px;
   line-height: 2.5;
+}
+
+.article-div {
+  margin-top: 0;
+}
+
+.text-container {
+  padding-bottom: 2em;
 }
 
 /*# sourceMappingURL=main.css.map */
