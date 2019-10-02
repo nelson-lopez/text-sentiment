@@ -15,7 +15,6 @@ const App = () => {
   const handleOnSubmit = value => {
     setQuery(value);
   };
-  console.log(query);
 
   return (
     <div>
