@@ -33,6 +33,15 @@ const Article = ({ data, graphData }) => {
   } else
     return (
       <div>
+        <Text />
+        <Graph />
+        <Text />
+        <Graph />
+        <Text />
+        <Graph />
+        <Text />
+        <Graph />
+        <Text />
         <Graph />
       </div>
     );

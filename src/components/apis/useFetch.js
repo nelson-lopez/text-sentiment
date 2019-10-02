@@ -43,7 +43,8 @@ const useFetch = query => {
   /// Summarized API request
   useEffect(() => {
     ////TODO: Clearn up const values
-    const key = 'e64215eb626d15492bbd3ac04603242b';
+    // const key = 'e64215eb626d15492bbd3ac04603242b';
+    const key = '';
     const proxy = 'https://cors-anywhere.herokuapp.com/';
     let isSubscribed = true;
     axios
@@ -65,7 +66,8 @@ const useFetch = query => {
 
   //Sentiment analysis API request
   useEffect(() => {
-    const key = 'e64215eb626d15492bbd3ac04603242b';
+    // const key = 'e64215eb626d15492bbd3ac04603242b';
+    const key = '';
     const proxy = 'https://cors-anywhere.herokuapp.com/';
     let isSubscribed = true;
     axios

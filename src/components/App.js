@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/css/main.css';
 import Nav from './Nav';
 import Body from './Body';
 import Header from './Header';
@@ -14,6 +15,7 @@ const App = () => {
   const handleOnSubmit = value => {
     setQuery(value);
   };
+  console.log(query);
 
   return (
     <div>

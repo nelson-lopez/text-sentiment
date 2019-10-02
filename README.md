@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This app will display word analysis using Indico's Sentiment automation for text processing. The user will enter in a word or a sentence and receive articles based on the New York times API as well as data visualization.
+This app will display word analysis using Indico's Sentiment automation for text processing. The user will enter in a word or a sentence and receive articles based on the News API as well as data visualization.
 
 ## Wireframes
 
@@ -92,7 +92,7 @@ https://developer.nytimes.com/
 
 #### MVP
 
-- Use New York times API to analyze articles
+- Use News API to analyze articles
 - Render data on page
 - Add Responsiveness for Phone
 - Mount data to Highcharts
@@ -144,6 +144,42 @@ Fomatic for utility styling https://fomantic-ui.com/
 Highcharts for chart generation https://www.highcharts.com/
 
 ## Code Snippet
+
+```
+const setChartData = useMemo(() => {
+    const chartData = [];
+    if (data) {
+      for (let key in data) {
+        chartData.push({
+          name: key,
+          y: data[key]
+        });
+      }
+    }
+    return chartData;
+  }, [data]);
+
+    const options = {
+    borderColor: '#B72D2D',
+    chart: {
+      type: 'pie'
+    },
+    title: {
+      text: 'Sentimental Values specific to this article'
+    },
+    xAxis: {
+      categories: []
+    },
+    credits: {
+      enabled: false
+    },
+    series: [
+      {
+        data: setChartData
+      }
+    ]
+  };
+```
 
 ## Issues and Resolutions
 
