@@ -31,7 +31,7 @@ const useFetch = query => {
     axios
       .get(url)
       .then(response => {
-        const fetchedData = response.data.articles;
+        const fetchedData = response.data.articles.slice(0, 5);
         if (isSubscribed) {
           setData(fetchedData);
         }
