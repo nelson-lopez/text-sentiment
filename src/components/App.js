@@ -18,7 +18,6 @@ const App = () => {
   return (
     <div>
       <Nav />
-
       <Route
         exact
         path="/Body"

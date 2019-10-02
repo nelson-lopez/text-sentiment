@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 
 const SearchBar = ({ handleOnSubmit }) => {
   const [input, setInput] = useState(null);
@@ -7,10 +7,14 @@ const SearchBar = ({ handleOnSubmit }) => {
     setInput(e.target.value);
   };
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    handleOnSubmit(input);
-  };
+  const handleSubmit = useCallback(
+    e => {
+      e.preventDefault();
+      handleOnSubmit(input);
+    },
+    [handleOnSubmit, input]
+  );
+
   return (
     <div>
       <form onSubmit={handleSubmit}>

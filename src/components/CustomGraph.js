@@ -15,7 +15,7 @@ const CustomGraph = ({ data }) => {
     }
     return chartData;
   }, [data]);
-  const chart = setChartData;
+
   const options = {
     borderColor: '#B72D2D',
     chart: {
@@ -32,7 +32,7 @@ const CustomGraph = ({ data }) => {
     },
     series: [
       {
-        data: chart
+        data: setChartData
       }
     ]
   };
