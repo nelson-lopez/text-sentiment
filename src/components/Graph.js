@@ -1,18 +1,21 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
 
 const Graph = ({ data }) => {
-  const chartData = [];
-  if (data) {
-    for (let key in data) {
-      chartData.push({
-        name: key,
-        y: data[key]
-      });
+  const setChartData = useMemo(() => {
+    const chartData = [];
+    if (data) {
+      for (let key in data) {
+        chartData.push({
+          name: key,
+          y: data[key]
+        });
+      }
     }
-  }
-  console.log(chartData);
+    return chartData;
+  }, [data]);
+  const chart = setChartData;
   const options = {
     borderColor: '#B72D2D',
     chart: {
@@ -29,7 +32,7 @@ const Graph = ({ data }) => {
     },
     series: [
       {
-        data: chartData
+        data: chart
       }
     ]
   };
