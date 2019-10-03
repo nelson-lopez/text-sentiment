@@ -113,6 +113,20 @@ $color5: rgba(251, 254, 249, 1);
     .search-body-container {
       padding: 0em 20em;
     }
+    .ui.fluid.image {
+      max-height: 30em;
+      max-width: 50em;
+    }
+    .image-div {
+      padding: 0em 20em;
+    }
+  }
+  .text-container {
+    text-align: center;
+    .ui.segment {
+      padding: 1em 20em;
+      border-style: none;
+    }
   }
 
   .nav-body-container {

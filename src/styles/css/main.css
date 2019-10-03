@@ -98,6 +98,21 @@
   .article-container .search-body-container {
     padding: 0em 20em;
   }
+  .article-container .ui.fluid.image {
+    max-height: 30em;
+    max-width: 50em;
+  }
+  .article-container .image-div {
+    padding: 0em 20em;
+  }
+
+  .text-container {
+    text-align: center;
+  }
+  .text-container .ui.segment {
+    padding: 1em 20em;
+    border-style: none;
+  }
 
   .nav-body-container {
     padding-top: 3em;

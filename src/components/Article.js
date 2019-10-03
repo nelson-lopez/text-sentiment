@@ -38,7 +38,9 @@ const Article = ({ data, graphData }) => {
         <Text />
         <Graph />
         <Text />
-        <Graph />
+        <div class="graph-container">
+          <Graph />
+        </div>
       </div>
     );
 };
