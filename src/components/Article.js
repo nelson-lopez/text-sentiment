@@ -32,7 +32,7 @@ const Article = ({ data, graphData }) => {
     });
   } else
     return (
-      <div>
+      <div class="article">
         <Text />
         <Graph />
         <Text />

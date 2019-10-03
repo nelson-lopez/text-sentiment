@@ -7,7 +7,6 @@ $background-text-color: rgba(217, 217, 215, 0.7);
 $color5: rgba(251, 254, 249, 1);
 
 .nav {
-  background: $background-nav-color;
   height: 10vh;
   display: flex;
   flex-direction: row;
@@ -23,6 +22,7 @@ $color5: rgba(251, 254, 249, 1);
 .ui.form {
   padding-top: 3.5em;
   padding-bottom: 1em;
+  margin: 0em 2em;
   form {
     display: flex;
   }
@@ -52,6 +52,10 @@ $color5: rgba(251, 254, 249, 1);
 /////////
 
 @media (min-width: 1440px) {
+  ///////////
+  /// Home page styling
+  //////////
+
   .home-container {
     height: 100vh;
     padding: 0em 13em;
@@ -83,7 +87,7 @@ $color5: rgba(251, 254, 249, 1);
         animation-timing-function: ease-in;
         font-size: 1.1em;
         padding: 1.5em 3em;
-        margin: 0em 2em;
+        margin: 0em 1.5em;
       }
     }
   }
@@ -99,6 +103,26 @@ $color5: rgba(251, 254, 249, 1);
   }
   .ui.secondary.button {
     padding: 2em 2em;
+  }
+  //////////////
+  /////Article page container
+  /////////////
+
+  .article-container {
+    padding: 0em 25em;
+    .search-body-container {
+      padding: 0em 20em;
+    }
+  }
+
+  .nav-body-container {
+    padding-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .ui.secondary.button {
+      margin: 0em 2em;
+    }
   }
 }
 @keyframes fadeIn-One {
