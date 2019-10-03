@@ -73,9 +73,11 @@ $color5: rgba(251, 254, 249, 1);
         height: 2em;
       }
     }
+
     .nav {
       padding-top: 3em;
       background: none;
+
       .nav-list {
         display: flex;
         flex-direction: row;
@@ -123,6 +125,7 @@ $color5: rgba(251, 254, 249, 1);
   }
   .text-container {
     text-align: center;
+    padding-top: 10em;
     .ui.segment {
       padding: 1em 20em;
       border-style: none;

@@ -108,6 +108,7 @@
 
   .text-container {
     text-align: center;
+    padding-top: 10em;
   }
   .text-container .ui.segment {
     padding: 1em 20em;

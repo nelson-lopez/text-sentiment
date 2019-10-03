@@ -4,15 +4,22 @@ import Body from './Body';
 import Header from './Header';
 import CustomSearch from './CustomSearch';
 import useFetch from './apis/useFetch';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect
+} from 'react-router-dom';
 
 const App = () => {
   const [query, setQuery] = useState('politics');
+  const [article, setArticle] = useState(false);
 
   const data = useFetch(query);
 
   const handleOnSubmit = value => {
     setQuery(value);
+    setArticle(!article);
   };
 
   return (
@@ -39,6 +46,10 @@ const App = () => {
           exact
           path="/"
           render={() => {
+            if (article) {
+              setArticle(!article);
+              return <Redirect to="/Body" />;
+            }
             return <Header handleOnSubmit={handleOnSubmit} />;
           }}
         />
