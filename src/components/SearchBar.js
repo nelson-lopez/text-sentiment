@@ -20,7 +20,7 @@ const SearchBar = ({ handleOnSubmit }) => {
       <div class="field">
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Search..." onChange={handleInput} />
-          <input type="submit" value="submit" class="ui button"></input>
+          <input type="submit" value="Submit" class="ui button"></input>
         </form>
       </div>
     </div>

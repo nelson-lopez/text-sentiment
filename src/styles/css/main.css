@@ -25,7 +25,7 @@
 }
 
 .ui.segment.home {
-  border-style: solid;
+  border-style: none;
   border-width: 6px;
   color: #101111;
   font-size: 1.6em;
@@ -33,12 +33,75 @@
   line-height: 2.5;
 }
 
-.article-div {
+.article-container {
   margin-top: 0;
 }
 
 .text-container {
   padding-bottom: 2em;
+}
+
+@media (min-width: 1440px) {
+  .home-container {
+    height: 100vh;
+    padding: 0em 13em;
+  }
+  .home-container .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-container form {
+    margin: 0em 38em;
+    padding-left: 3em;
+    display: flex;
+  }
+  .home-container form input {
+    height: 2em;
+  }
+  .home-container .nav {
+    padding-top: 3em;
+    background: none;
+  }
+  .home-container .nav .nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .home-container .nav .ui.secondary.button {
+    animation: fadeIn-One;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    font-size: 1.1em;
+    padding: 1.5em 3em;
+    margin: 0em 2em;
+  }
+
+  .ui.ui.segment.home {
+    font-size: 1.8em;
+    border: none;
+    padding-bottom: 8em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin: 1em 20em;
+    background: none;
+    color: #101111;
+  }
+
+  .ui.secondary.button {
+    padding: 2em 2em;
+  }
+}
+@keyframes fadeIn-One {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

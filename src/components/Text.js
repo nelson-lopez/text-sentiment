@@ -4,7 +4,7 @@ const Text = ({ title, body, link, image, date, author }) => {
   if (title) {
     return (
       <div class="text-container">
-        <h3>{title}</h3>
+        <h3 class="article-title">{title}</h3>
         <h4>{author}</h4>
         <h4>{date.slice(0, 10)}</h4>
         <img src={image} alt="news" class="ui fluid image"></img>
@@ -19,7 +19,9 @@ const Text = ({ title, body, link, image, date, author }) => {
   } else
     return (
       <div class="text-container">
-        <h3>Test title here</h3>
+        <h3 class="article-title">
+          something really long here blah blah blah blah
+        </h3>
         <h4>John Doe</h4>
         <h4>4/24/2019</h4>
         <img
