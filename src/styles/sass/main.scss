@@ -126,6 +126,9 @@ $color5: rgba(251, 254, 249, 1);
     .ui.segment {
       padding: 1em 20em;
       border-style: none;
+      p {
+        font-size: 1.8em;
+      }
     }
   }
 

@@ -113,6 +113,9 @@
     padding: 1em 20em;
     border-style: none;
   }
+  .text-container .ui.segment p {
+    font-size: 1.8em;
+  }
 
   .nav-body-container {
     padding-top: 3em;
