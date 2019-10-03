@@ -16,11 +16,11 @@ const SearchBar = ({ handleOnSubmit }) => {
   );
 
   return (
-    <div class="ui form">
-      <div class="field">
+    <div className="ui form">
+      <div className="field">
         <form onSubmit={handleSubmit}>
           <input type="text" placeholder="Search..." onChange={handleInput} />
-          <input type="submit" value="Submit" class="ui button"></input>
+          <input type="submit" value="Submit" className="ui button"></input>
         </form>
       </div>
     </div>

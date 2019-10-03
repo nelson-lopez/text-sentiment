@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <div class="nav">
-      <div class="nav-list">
-        <Link to="/" class="ui secondary button">
+    <div className="nav">
+      <div className="nav-list">
+        <Link to="/" className="ui secondary button">
           Home
         </Link>
-        <Link to="/Body" class="ui secondary button">
+        <Link to="/Body" className="ui secondary button">
           Articles
         </Link>
 
-        <Link to="/CustomSearch" class="ui secondary button">
+        <Link to="/CustomSearch" className="ui secondary button">
           Custom Search
         </Link>
       </div>

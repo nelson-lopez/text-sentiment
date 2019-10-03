@@ -32,15 +32,11 @@ const Article = ({ data, graphData }) => {
     });
   } else
     return (
-      <div class="article">
-        <Text />
-        <Graph />
-        <Text />
-        <Graph />
-        <Text />
-        <div class="graph-container">
-          <Graph />
+      <div className="ui segment">
+        <div className="ui active inverted dimmer">
+          <div className="ui text loader">Loading</div>
         </div>
+        <p></p>
       </div>
     );
 };

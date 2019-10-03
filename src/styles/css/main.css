@@ -41,8 +41,9 @@
   padding-bottom: 2em;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1920px) {
   .home-container {
+    background: none;
     height: 100vh;
     padding: 0em 13em;
   }
@@ -75,21 +76,28 @@
     font-size: 1.1em;
     padding: 1.5em 3em;
     margin: 0em 1.5em;
+    background-color: #005b6d;
   }
 
   .ui.ui.segment.home {
     font-size: 1.8em;
-    border: none;
     padding-bottom: 8em;
     padding-left: 3em;
     padding-right: 3em;
     margin: 1em 20em;
-    background: none;
+    background: white;
     color: #101111;
+    border-style: inset;
+    border-width: 0.2em;
+    border-color: #005b6d;
   }
 
   .ui.secondary.button {
     padding: 2em 2em;
+  }
+
+  .ui.button {
+    background: #f2d9b5;
   }
 
   .article-container {
@@ -98,12 +106,24 @@
   .article-container .search-body-container {
     padding: 0em 20em;
   }
-  .article-container .ui.fluid.image {
+
+  .article-title {
+    font-size: 2em;
+  }
+  .article-title .ui.fluid.image {
     max-height: 30em;
     max-width: 50em;
   }
-  .article-container .image-div {
+  .article-title .image-div {
     padding: 0em 20em;
+  }
+
+  .article-author {
+    font-size: 3em;
+  }
+
+  .article-date {
+    font-size: 2em;
   }
 
   .text-container {
@@ -126,6 +146,10 @@
   }
   .nav-body-container .ui.secondary.button {
     margin: 0em 2em;
+  }
+
+  .custom-searchbar {
+    padding: 0 50em;
   }
 }
 @keyframes fadeIn-One {

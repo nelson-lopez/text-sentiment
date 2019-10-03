@@ -36,7 +36,17 @@ const Graph = ({ data }) => {
       }
     ]
   };
-  return <HighchartsReact highcharts={Highcharts} options={options} />;
+  if (data) {
+    return <HighchartsReact highcharts={Highcharts} options={options} />;
+  } else
+    return (
+      <div className="ui segment">
+        <div className="ui active  dimmer">
+          <div className="ui text loader">Loading</div>
+        </div>
+        <p></p>
+      </div>
+    );
 };
 
 export default Graph;
