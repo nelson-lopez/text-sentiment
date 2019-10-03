@@ -4,6 +4,7 @@ import Body from './Body';
 import Header from './Header';
 import CustomSearch from './CustomSearch';
 import useFetch from './apis/useFetch';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -38,10 +39,9 @@ const App = () => {
             );
           }}
         />
-      </Switch>
-      <Route exact path="/CustomSearch" component={CustomSearch} />
 
-      <Switch>
+        <Route exact path="/CustomSearch" component={CustomSearch} />
+
         <Route
           exact
           path="/"

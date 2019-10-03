@@ -13,8 +13,8 @@ const CustomSearch = () => {
   };
 
   useEffect(() => {
-    const key = 'e64215eb626d15492bbd3ac04603242b';
-    // const key = '';
+    // const key = 'e64215eb626d15492bbd3ac04603242b';
+    const key = '';
     const proxy = 'https://cors-anywhere.herokuapp.com/';
     let isSubscribed = true;
     axios
@@ -33,7 +33,7 @@ const CustomSearch = () => {
   console.log(data);
 
   return (
-    <div>
+    <div className="custom-search">
       <Nav />
       <div className="custom-searchbar">
         <CustomSearchBar handleOnSubmit={handleOnSubmit} />

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Graph from './Graph';
+
 import Text from './Text';
 
 const Article = ({ data, graphData }) => {
@@ -25,8 +25,8 @@ const Article = ({ data, graphData }) => {
             link={obj.url}
             image={obj.urlToImage}
             date={obj.publishedAt}
+            data={graphData[index]}
           />
-          <Graph data={graphData[index]} />
         </div>
       );
     });

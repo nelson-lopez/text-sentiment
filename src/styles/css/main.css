@@ -31,6 +31,7 @@
   font-size: 1.6em;
   min-height: 200px;
   line-height: 2.5;
+  box-shadow: 4px 4px 2px 1px rgba(51, 51, 83, 0.2);
 }
 
 .article-container {
@@ -43,7 +44,7 @@
 
 @media (min-width: 1920px) {
   .home-container {
-    background: none;
+    background: rgba(217, 217, 215, 0.7);
     height: 100vh;
     padding: 0em 13em;
   }
@@ -77,6 +78,9 @@
     padding: 1.5em 3em;
     margin: 0em 1.5em;
     background-color: #005b6d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
   .ui.ui.segment.home {
@@ -87,9 +91,6 @@
     margin: 1em 20em;
     background: white;
     color: #101111;
-    border-style: inset;
-    border-width: 0.2em;
-    border-color: #005b6d;
   }
 
   .ui.secondary.button {
@@ -98,6 +99,12 @@
 
   .ui.button {
     background: #f2d9b5;
+  }
+
+  .text-container .content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .article-container {
@@ -111,15 +118,15 @@
     font-size: 2em;
   }
   .article-title .ui.fluid.image {
-    max-height: 30em;
-    max-width: 50em;
+    min-height: 30em;
+    min-width: 20em;
   }
   .article-title .image-div {
     padding: 0em 20em;
   }
 
   .article-author {
-    font-size: 3em;
+    font-size: 1.8em;
   }
 
   .article-date {
@@ -131,7 +138,6 @@
     padding-top: 10em;
   }
   .text-container .ui.segment {
-    padding: 1em 20em;
     border-style: none;
   }
   .text-container .ui.segment p {
@@ -145,11 +151,26 @@
     justify-content: center;
   }
   .nav-body-container .ui.secondary.button {
-    margin: 0em 2em;
+    animation: fadeIn-One;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    font-size: 1.1em;
+    padding: 1.5em 3em;
+    margin: 0em 1.5em;
+    background-color: #005b6d;
   }
 
-  .custom-searchbar {
+  .custom-search .custom-searchbar {
     padding: 0 50em;
+  }
+  .custom-search .ui.secondary.button {
+    animation: fadeIn-One;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    font-size: 1.1em;
+    padding: 1.5em 3em;
+    margin: 0em 1.5em;
+    background-color: #005b6d;
   }
 }
 @keyframes fadeIn-One {

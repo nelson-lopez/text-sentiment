@@ -5,7 +5,9 @@ $background-nav-color: rgba(0, 91, 109, 1);
 $background-footer-color: rgba(242, 217, 181, 1);
 $background-text-color: rgba(217, 217, 215, 0.7);
 $color5: rgba(251, 254, 249, 1);
-
+/////////////
+///Phone styling
+////////////
 .nav {
   height: 10vh;
   display: flex;
@@ -38,6 +40,7 @@ $color5: rgba(251, 254, 249, 1);
   font-size: 1.6em;
   min-height: 200px;
   line-height: 2.5;
+  box-shadow: 4px 4px 2px 1px rgba(51, 51, 83, 0.2);
 }
 
 .article-container {
@@ -57,7 +60,7 @@ $color5: rgba(251, 254, 249, 1);
   //////////
 
   .home-container {
-    background: none;
+    background: $background-text-color;
     height: 100vh;
     padding: 0em 13em;
 
@@ -92,6 +95,9 @@ $color5: rgba(251, 254, 249, 1);
         padding: 1.5em 3em;
         margin: 0em 1.5em;
         background-color: $background-nav-color;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
       }
     }
   }
@@ -103,9 +109,6 @@ $color5: rgba(251, 254, 249, 1);
     margin: 1em 20em;
     background: white;
     color: $text-color;
-    border-style: inset;
-    border-width: 0.2em;
-    border-color: $background-nav-color;
   }
   .ui.secondary.button {
     padding: 2em 2em;
@@ -116,6 +119,13 @@ $color5: rgba(251, 254, 249, 1);
   //////////////
   /////Article page container
   /////////////
+  .text-container {
+    .content-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
 
   .article-container {
     padding: 0em 25em;
@@ -127,15 +137,15 @@ $color5: rgba(251, 254, 249, 1);
     font-size: 2em;
 
     .ui.fluid.image {
-      max-height: 30em;
-      max-width: 50em;
+      min-height: 30em;
+      min-width: 20em;
     }
     .image-div {
       padding: 0em 20em;
     }
   }
   .article-author {
-    font-size: 3em;
+    font-size: 1.8em;
   }
   .article-date {
     font-size: 2em;
@@ -145,7 +155,6 @@ $color5: rgba(251, 254, 249, 1);
     text-align: center;
     padding-top: 10em;
     .ui.segment {
-      padding: 1em 20em;
       border-style: none;
       p {
         font-size: 1.8em;
@@ -159,15 +168,31 @@ $color5: rgba(251, 254, 249, 1);
     flex-direction: row;
     justify-content: center;
     .ui.secondary.button {
-      margin: 0em 2em;
+      animation: fadeIn-One;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-in;
+      font-size: 1.1em;
+      padding: 1.5em 3em;
+      margin: 0em 1.5em;
+      background-color: $background-nav-color;
     }
   }
   ///////////
   ////Custom Search
   //////////
-
-  .custom-searchbar {
-    padding: 0 50em;
+  .custom-search {
+    .custom-searchbar {
+      padding: 0 50em;
+    }
+    .ui.secondary.button {
+      animation: fadeIn-One;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-in;
+      font-size: 1.1em;
+      padding: 1.5em 3em;
+      margin: 0em 1.5em;
+      background-color: $background-nav-color;
+    }
   }
 }
 @keyframes fadeIn-One {
