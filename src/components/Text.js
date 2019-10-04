@@ -45,7 +45,7 @@ const Text = ({ title, body, link, image, date, author, data }) => {
         <h4 className="article-date">{date.slice(0, 10)}</h4>
         <div className="content-container">
           <div className="image-div">
-            <img src={image} alt="news" className="ui fluid image"></img>
+            <img src={image} alt="news" className="image"></img>
           </div>
           <div className="ui segment">
             <p>{body}</p>

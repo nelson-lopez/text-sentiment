@@ -29,9 +29,6 @@ const CustomSearch = () => {
       });
   }, [query]);
 
-  console.log(query);
-  console.log(data);
-
   return (
     <div className="custom-search">
       <Nav />

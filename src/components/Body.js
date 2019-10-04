@@ -4,17 +4,15 @@ import SearchBar from './SearchBar';
 import Nav from './Nav';
 
 const Body = ({ data, graphData, handleOnSubmit }) => {
-  console.log(data);
-
   return (
-    <div className="article-container">
-      <div className="nav-body-container">
+    <div clas="article-container">
+      <div clas="nav-body-container">
         <Nav />
       </div>
-      <div className="search-body-container">
+      <div clas="search-body-container">
         <SearchBar handleOnSubmit={handleOnSubmit} />
       </div>
-      <div className="body-article-container">
+      <div clas="body-article-container">
         <Article data={data} graphData={graphData} />
       </div>
     </div>

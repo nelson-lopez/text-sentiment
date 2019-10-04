@@ -44,7 +44,8 @@
 
 @media (min-width: 1920px) {
   .home-container {
-    background: rgba(217, 217, 215, 0.7);
+    background-image: url("https://.unsplash.com/photo-1531346878377-a5be20888e57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-size: cover;
     height: 100vh;
     padding: 0em 13em;
   }
@@ -105,24 +106,23 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding: 0em 20em;
   }
 
   .article-container {
     padding: 0em 25em;
   }
   .article-container .search-body-container {
-    padding: 0em 20em;
+    max-width: 40em;
   }
 
   .article-title {
     font-size: 2em;
   }
-  .article-title .ui.fluid.image {
-    min-height: 30em;
-    min-width: 20em;
-  }
-  .article-title .image-div {
-    padding: 0em 20em;
+
+  .image {
+    max-width: 50em;
+    max-height: 25em;
   }
 
   .article-author {
@@ -141,7 +141,7 @@
     border-style: none;
   }
   .text-container .ui.segment p {
-    font-size: 1.8em;
+    font-size: 2.5em;
   }
 
   .nav-body-container {

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/css/main.css';
+
 import Body from './Body';
 import Header from './Header';
 import CustomSearch from './CustomSearch';
@@ -13,7 +14,7 @@ import {
 } from 'react-router-dom';
 
 const App = () => {
-  const [query, setQuery] = useState('politics');
+  const [query, setQuery] = useState('election');
   const [article, setArticle] = useState(false);
 
   const data = useFetch(query);
