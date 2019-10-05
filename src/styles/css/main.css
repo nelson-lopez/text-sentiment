@@ -42,6 +42,10 @@
   padding-bottom: 2em;
 }
 
+.content-container .image {
+  max-width: 25em;
+}
+
 @media (min-width: 1920px) {
   .home-container {
     background-image: url("https://images.unsplash.com/photo-1527567018838-584d3468eb85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");

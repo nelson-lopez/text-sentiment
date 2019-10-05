@@ -13,8 +13,7 @@ const CustomSearch = () => {
   };
 
   useEffect(() => {
-    // const key = 'e64215eb626d15492bbd3ac04603242b';
-    const key = '';
+    const key = 'e64215eb626d15492bbd3ac04603242b';
     const proxy = 'https://cors-anywhere.herokuapp.com/';
     let isSubscribed = true;
     axios

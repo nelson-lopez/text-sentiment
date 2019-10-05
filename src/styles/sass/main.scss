@@ -50,6 +50,12 @@ $color5: rgba(251, 254, 249, 1);
 .text-container {
   padding-bottom: 2em;
 }
+
+.content-container {
+  .image {
+    max-width: 25em;
+  }
+}
 //////////
 //// Media Queries
 /////////
