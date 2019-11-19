@@ -1,4 +1,4 @@
-# Text Analysis
+# Text Sentiment
 
 http://text-sentiment.surge.sh/
 
